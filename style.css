@@ -1,0 +1,289 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	background: #D8D8D8;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+h2 {
+	font-size: 40px;
+	font-weight: normal;
+	font-family: "Roberto Condensed", Arial, Helvetica, sans-serif;
+}
+
+hr {
+	background-color: white;
+}
+
+.body {
+	width: 1000px;
+	height: 1400px;
+	margin: 0px auto 10px;
+	background-color: #FFFFFF;
+}
+
+.header {
+	width: 1000px;
+	height: 290px;
+	background-color: #F5DA81;
+}
+
+.logo {
+	width: 1000px;
+	height: 100px;
+}
+
+.name {
+	font-family: "Roberto Condensed", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-top: 20px;
+	font-size: 43px;
+	font-weight: bold;
+}
+
+.slogan {
+	padding-top: 0;
+	padding-left: 350px;
+	font-size: 18px;
+}
+
+.banner {
+	height: 150px;
+	background: linear-gradient(#E1F5A9, #AEB404);
+}
+
+.news {
+	height: 120px;
+	width: 660px;
+	border: 1px solid white;
+	border-radius: 1em;
+	float: left;
+	margin: 15px 10px 15px 30px;
+	padding: 25px 25px;
+}
+
+.news h4 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.news p {
+	line-height: 25px;
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+.banner img {
+	float: right;
+	height: 150px;
+	width: 280px;
+}
+
+.nav ul {
+	width: 1000px;
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+
+.nav ul li {
+	display: inline;
+	margin: 25px 30px;
+}
+
+.nav ul li:hover {
+	background-color: #AEB404;
+}
+
+.nav ul li a:hover {
+	color: #FFFFFF;
+}
+
+.nav ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 15px;
+	color: #000000;
+}
+
+.hor-btm {
+	position: relative;
+	bottom: 0;
+}
+
+.main {
+	width: 1000px;
+	height: 1040px;
+	padding: 50px;
+	background-color: #FFFFFF;
+}
+
+.left {
+	width: 300px;
+	height: 950px;
+	background-color: #AEB404;
+	float: left;
+	padding: 10px;
+}
+
+.left a {
+	color: #000000;
+}
+
+.academics {
+	margin: 10px;
+}
+
+
+/*to change*/
+.academics li {
+	list-style-type: none;
+	width: 150px;
+	height: 70px;
+	border-top: solid 1px #F5DA81;
+	border-bottom: solid 1px #F5DA81;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.academics a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.events {
+	margin: 10px;
+}
+
+.events div {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 80px;
+	color: #6C6C6C;
+	line-height: 25px;
+}
+
+.right{
+	float: right;
+	height: 950px;
+	width: 600px;
+	padding: 30px;
+	font-size: 16px;	
+}
+
+.right a {
+	color: #AEB404;
+}
+
+.right h3 {
+	font-family: "Roberto Condensed", Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: #AEB404;
+	font-weight: normal;
+}
+
+.history  h2{
+	font-family: "Roberto Condensed", Arial, Helvetica, sans-serif;
+	color: #AEB404;
+	font-size: 45px;
+}
+
+.history p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.readmore {
+	float: right;
+}
+
+.btn {
+	width: 85px;
+	height: 41px;
+	background: linear-gradient(#E1F5A9, #AEB404);
+	text-align: center;
+	border-radius: 3px;
+	vertical-align: middle;
+	padding: 10px 0;
+	border:none;
+	box-shadow:none;
+	font-weight: bold;
+}
+
+.right button a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.right form {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.readmore a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.schedule {
+	margin-top: 80px;
+}
+
+.schedule p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.schedule table {
+	text-align: center;
+	background-color: #000000;
+}
+
+.schedule table th {
+	background: linear-gradient(#E1F5A9, #AEB404);	
+	color: #FFFFFF;
+	border-bottom: solid 1px #000000;
+}
+
+.schedule table td {
+	width: 165px;
+	height: 25px;
+	background-color: #EFFBFB;
+}
+
+.footer {
+	width: 1000px;
+	height: 70px;
+	margin: 0px auto 10px;
+}
+
+.footer-top {
+	background-color: #F5DA81;	
+	height: 35px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.footer-top p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: relative;
+	bottom: 0;
+}
+
+.footer-top a {
+	color: #FE9A2E;
+}
+
+.footer-bottom {
+	background-color: #AEB404;	
+	height: 35px;
+}
