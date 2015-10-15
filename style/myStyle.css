@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#home {
+	background: url("../img/bg_home.jpg") no-repeat fixed;
+	background-size: cover;
+	height: 1000px;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.intro-message > h1 {
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: #EEEEEE;
+}
+
+.intro-message > h3 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	font-size: 2.5em;
+}
+
+.intro-horizon {
+	border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#home ul {
+	list-style: none;
+}
+
+#home ul li {
+	display: inline;
+	margin: 20px 45px 30px 45px;
+}
+
+.btn {
+	background: #C0C0C0;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	transition: 0.2s;
+}
+
+.btn:hover {
+	color: #FFFFFF;
+	background: #000000;
+}
+
+#about {
+	background: url("../img/bg_about.jpg") no-repeat fixed;
+	background-size: cover;
+	height: 1000px;
+}
+
+#about h3, p {
+	color: #EEEEEE;
+}
+
+#about h3 {
+	padding: 30px;
+	font-size: 40px;
+}
+
+#about p {
+	padding-left: 30px;
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+
+#portfolio {
+	background: url("../img/bg_portfolio.jpg") no-repeat fixed;
+	background-size: cover;
+	height: 1000px;
+}
+
+
+
+footer {
+	padding: 30px;
+}
