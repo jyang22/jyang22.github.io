@@ -17,7 +17,7 @@ h6 {
 #home {
 	background: url("../img/bg_home.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 1000px;
+	height: 855px;
 }
 
 .intro-message {
@@ -65,7 +65,7 @@ h6 {
 #about {
 	background: url("../img/bg_about.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 1000px;
+	height: 855px;
 }
 
 #about h3, p {
@@ -86,7 +86,7 @@ h6 {
 #portfolio {
 	background: url("../img/bg_portfolio.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 1000px;
+	height: 855px;
 }
 
 
