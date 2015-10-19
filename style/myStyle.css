@@ -14,10 +14,14 @@ h6 {
     font-weight: 700;
 }
 
+.nav-right {
+	float: right;
+}
+
 #home {
 	background: url("../img/bg_home.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 855px;
+	height: 700px;
 }
 
 .intro-message {
@@ -48,7 +52,17 @@ h6 {
 
 #home ul li {
 	display: inline;
-	margin: 20px 45px 30px 45px;
+	margin-left: 12%;
+	margin-right: 10%;
+}
+
+#home ul li a {
+	background-color: #EEEEEE;
+}
+
+#home ul li a:hover {
+	background-color: #555555;
+	color: #FFFFFF;
 }
 
 .btn {
@@ -65,31 +79,38 @@ h6 {
 #about {
 	background: url("../img/bg_about.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 855px;
+	height: 700px;
 }
 
-#about h3, p {
-	color: #EEEEEE;
+#about table {
+	margin-left: 20%;
 }
 
-#about h3 {
-	padding: 30px;
+#about table th {
 	font-size: 40px;
+	padding-top: 15%;
+	padding-bottom: 10%;
 }
 
-#about p {
-	padding-left: 30px;
-	padding-bottom: 15px;
-	font-size: 20px;
+#about table td {
+	font-size: 15px;
+	padding-bottom: 5%;
+}
+
+.table-first-row {
+	text-align: right;
 }
 
 #portfolio {
 	background: url("../img/bg_portfolio.jpg") no-repeat fixed;
 	background-size: cover;
-	height: 855px;
+	height: 700px;
+	color: #FFFFFF;
 }
 
-
+#portfolio .container {
+	padding-top: 40px;
+}
 
 footer {
 	padding: 30px;
